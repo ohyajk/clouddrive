@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+:root {
+    background-color: #ede7f9;
+    color: #521bc6;
+}
+
+.dark {
+    color: #ede7f9;
+    background-color: #0a0318;
+}
+
+.gradient-bg {
+    background: linear-gradient(45deg, #9b8fb6, #511bc69a);
+    background-size: 200% 200%;
+    animation: gradientAnimation 0.7s ease-in-out infinite;
+}
+
+.cl-internal-b3fm6y {
+    display: none;
+}
