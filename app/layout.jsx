@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google"
 import { v2 as cloudinary } from "cloudinary"
 import { Toaster } from "react-hot-toast"
 import "./globals.css"
+import Nav from "./components/Nav"
 const poppins = Poppins({ subsets: ["latin"], weight: "400" })
 
 export const metadata = {
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
                 </head>
                 <body className={poppins.className}>
                     <Toaster position='top-right' />
+                    <Nav />
                     {children}
                 </body>
             </html>

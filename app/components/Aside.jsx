@@ -38,10 +38,10 @@ const Aside = () => {
                             <i className='fa-solid fa-file-lines fa-lg'></i>
                             <h4 className='text-xl font-semibold'>File Cloud</h4>
                         </Link>
-                        <Link href='/contact' className={` ${theme == "light" || !theme ? "hover:bg-[#0a0318]" : "hover:bg-[#521bc6]"} flex gap-4  justify-center items-center py-4 border-t-2 border-b-2 border-white/20  w-full`}>
+                        <a href='https://www.linkedin.com/in/ohyajk/' className={` ${theme == "light" || !theme ? "hover:bg-[#0a0318]" : "hover:bg-[#521bc6]"} flex gap-4  justify-center items-center py-4 border-t-2 border-b-2 border-white/20  w-full`}>
                             <i className='fa-solid fa-building fa-lg'></i>
                             <h4 className='text-xl font-semibold'>Contact Me</h4>
-                        </Link>
+                        </a>
                         <button onClick={() => signOut(() => router.push("/"))} className={` ${theme == "light" || !theme ? "hover:bg-[#0a0318]" : "hover:bg-[#521bc6]"} flex gap-4  justify-center items-center py-4 border-b-2 border-white/20  w-full`}>
                             <i className='fa-solid fa-right-from-bracket fa-lg'></i>
                             <h4 className='text-xl font-semibold'>Logout</h4>
@@ -105,10 +105,10 @@ const Aside = () => {
                                 <i className='fa-solid fa-file-lines fa-lg'></i>
                                 <h4 className='text-xl font-semibold'>File Cloud</h4>
                             </Link>
-                            <Link onClick={() => setMenu(!menu)} href='/contact' className={` ${theme == "light" || !theme ? "hover:bg-[#0a0318]" : "hover:bg-[#521bc6]"} flex gap-4  justify-center items-center py-4 border-t-2 border-b-2 border-white/20  w-full`}>
+                            <a href='https://www.linkedin.com/in/ohyajk/' className={` ${theme == "light" || !theme ? "hover:bg-[#0a0318]" : "hover:bg-[#521bc6]"} flex gap-4  justify-center items-center py-4 border-t-2 border-b-2 border-white/20  w-full`}>
                                 <i className='fa-solid fa-building fa-lg'></i>
                                 <h4 className='text-xl font-semibold'>Contact Me</h4>
-                            </Link>
+                            </a>
                             <button onClick={() => signOut(() => router.push("/"))} className={` ${theme == "light" || !theme ? "hover:bg-[#0a0318]" : "hover:bg-[#521bc6]"} flex gap-4  justify-center items-center py-4 border-b-2 border-white/20  w-full`}>
                                 <i className='fa-solid fa-right-from-bracket fa-lg'></i>
                                 <h4 className='text-xl font-semibold'>Logout</h4>

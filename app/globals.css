@@ -30,3 +30,13 @@
 .cl-internal-b3fm6y {
     display: none;
 }
+
+.myShadow {
+    box-shadow: 10px 10px 0 rgb(0, 0, 0);
+    transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out 0.3s;
+}
+
+.myShadow:hover {
+    box-shadow: none;
+    background-color: black;
+}
